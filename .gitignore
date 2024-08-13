@@ -1,0 +1,33 @@
+# Airflow-specific files
+logs/
+airflow.cfg
+airflow.db
+webserver_config.py
+airflow-webserver.pid
+
+# Virtual environment
+airflowvenv/
+
+# Python-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Docker-specific files
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (optional, depending on your IDE)
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite
